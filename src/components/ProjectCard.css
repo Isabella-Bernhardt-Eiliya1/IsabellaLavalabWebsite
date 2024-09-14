@@ -14,8 +14,8 @@
   
   /* styles for each project image */
   .project-image {
-    width: 100px;    
-    height: 100px;   
+    width: 99px;    
+    height: 99px;   
     object-fit: cover;
     margin: 0;       
     opacity: 1;      
