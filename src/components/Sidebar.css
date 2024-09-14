@@ -1,0 +1,32 @@
+.sidebar {
+    width: 200px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .sidebar-logo h2 {
+    color: #3c0c6a;
+  }
+  
+  .sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-menu li {
+    margin: 30px 0;
+    cursor: pointer;
+    color: #3c0c6a;
+  }
+  
+  .new-project-button {
+    padding: 10px;
+    background-color: #3c0c6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

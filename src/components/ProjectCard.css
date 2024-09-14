@@ -1,0 +1,30 @@
+.project-card {
+    width: 225px;    /* Adjusted width for smaller cards */
+    height: 225px;   /* Adjusted height for smaller cards */
+    position: relative;
+    margin-bottom: 28px; /* Gap between the cards */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    opacity: 1;
+  }
+  
+  .project-image {
+    width: 100px;    /* Image width */
+    height: 100px;   /* Image height */
+    object-fit: cover;
+    margin: 0;       /* No gap */
+    opacity: 1;      /* Visible by default */
+  }
+  
+  .project-card h3 {
+    font-size: 18px;   /* Smaller font for the title */
+    margin: 40px 0;
+  }
+  
+  .project-card p {
+    font-size: 14px;   /* Smaller font for the date */
+    color: #666;
+  }

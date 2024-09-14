@@ -1,0 +1,30 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .search-bar {
+    width: 800px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .profile-name {
+    font-weight: bold;
+  }
+  
+  .profile-email {
+    color: gray;
+  }

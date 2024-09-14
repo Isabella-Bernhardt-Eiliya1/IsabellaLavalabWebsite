@@ -1,0 +1,35 @@
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px; /* Adjust as needed */
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-content {
+  flex: 1; /* Takes up the remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar-and-grid {
+  display: flex;
+  flex: 1; /* Takes up the remaining space */
+}
+
+.top-bar {
+  width: 100%; /* Adjust or add padding/margin as needed */
+}
+
+.project-grid {
+  flex: 1; /* Takes up the remaining space */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Space between project cards */
+  padding: 20px; /* Optional: adds padding around the grid */
+}

@@ -1,0 +1,7 @@
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;  /* Gap between the project cards */
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
