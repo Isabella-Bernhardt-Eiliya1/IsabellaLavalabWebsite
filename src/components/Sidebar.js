@@ -1,6 +1,7 @@
 import React from 'react';
-import './Sidebar.css';
+import './Sidebar.css'; // imports CSS file for styling
 
+// defines the sidebar component
 function Sidebar() {
   return (
     <div className="sidebar">

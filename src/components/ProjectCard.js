@@ -1,6 +1,7 @@
 import React from 'react';
-import './ProjectCard.css';  // Assuming you have some CSS for styling
+import './ProjectCard.css';  // import CSS file for styling
 
+// ProjectCard component definition
 function ProjectCard({ title, date, imageUrl }) {
   return (
     <div className="project-card">

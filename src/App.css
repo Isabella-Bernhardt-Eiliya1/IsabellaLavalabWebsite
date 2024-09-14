@@ -1,9 +1,10 @@
 .app {
-  display: flex;
+  display: flex; /* layout to arrange Sidebar and main-content horizontally */
 }
 
+/* code that styles the sidebar */
 .sidebar {
-  width: 250px; /* Adjust as needed */
+  width: 250px; 
   background-color: #f8f9fa;
   padding: 20px;
   display: flex;
@@ -11,25 +12,29 @@
   justify-content: space-between;
 }
 
+/* this will take up remaining space and arranges TopBar and ProjectGrid vertically */
 .main-content {
-  flex: 1; /* Takes up the remaining space */
+  flex: 1; 
   display: flex;
   flex-direction: column;
 }
 
+/* layout for arranging TopBar and ProjectGrid horizontally */
 .top-bar-and-grid {
   display: flex;
-  flex: 1; /* Takes up the remaining space */
+  flex: 1;
 }
 
+/* width for TopBar */
 .top-bar {
-  width: 100%; /* Adjust or add padding/margin as needed */
+  width: 100%; 
 }
 
+/* grid layout for displaying project items with wrapping */
 .project-grid {
-  flex: 1; /* Takes up the remaining space */
+  flex: 1; 
   display: flex;
   flex-wrap: wrap;
-  gap: 16px; /* Space between project cards */
-  padding: 20px; /* Optional: adds padding around the grid */
+  gap: 16px; 
+  padding: 20px; 
 }

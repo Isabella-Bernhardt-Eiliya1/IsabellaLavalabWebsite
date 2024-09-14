@@ -1,7 +1,8 @@
+/* styles for ProjectGrid component */
 .project-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 28px;  /* Gap between the project cards */
+    gap: 28px; 
     justify-content: space-evenly;
     align-items: flex-start;
   }

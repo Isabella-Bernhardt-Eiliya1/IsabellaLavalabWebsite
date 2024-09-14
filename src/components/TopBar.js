@@ -1,6 +1,7 @@
 import React from 'react';
 import './TopBar.css';
 
+// defines TopBar component, includes a search bar and profile information
 function TopBar() {
   return (
     <div className="topbar">
@@ -13,4 +14,4 @@ function TopBar() {
   );
 }
 
-export default TopBar;
+export default TopBar; 

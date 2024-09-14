@@ -1,3 +1,4 @@
+/* styles for Sidebar component */
 .sidebar {
     width: 200px;
     background-color: #f8f9fa;
@@ -7,21 +8,25 @@
     justify-content: space-between;
   }
   
+  /* styles for sidebar logo */
   .sidebar-logo h2 {
     color: #3c0c6a;
   }
   
+  /* styles for sidebar menu */
   .sidebar-menu {
     list-style-type: none;
     padding: 0;
   }
   
+  /* styles for individual menu items */
   .sidebar-menu li {
     margin: 30px 0;
     cursor: pointer;
     color: #3c0c6a;
   }
   
+  /* styles for new project button */
   .new-project-button {
     padding: 10px;
     background-color: #3c0c6a;

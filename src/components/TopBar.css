@@ -1,12 +1,13 @@
+/* styles TopBar component */
 .topbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: #ffffff;
-    border-radius: 10px;
   }
-  
+
+  /* styles for search bar */
   .search-bar {
     width: 800px;
     height: 30px;
@@ -15,16 +16,19 @@
     border: 1px solid #ddd;
   }
   
+  /* container for profile information */
   .profile-info {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
   }
   
+  /* style for profile name */
   .profile-name {
     font-weight: bold;
   }
   
+  /* style for profile email */
   .profile-email {
     color: gray;
   }

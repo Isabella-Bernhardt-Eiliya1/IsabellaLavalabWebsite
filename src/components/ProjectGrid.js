@@ -1,8 +1,10 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import './ProjectGrid.css';  // Assuming you have grid CSS for styling
+import './ProjectGrid.css'; 
 
+// projectGrid component definition
 function ProjectGrid() {
+    // array of project data
   const projects = [
     {
       title: 'Assignment 1',
