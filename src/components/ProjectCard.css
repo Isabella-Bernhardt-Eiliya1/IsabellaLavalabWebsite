@@ -1,8 +1,9 @@
+/* styles for each ProjectCard */
 .project-card {
-    width: 225px;    /* Adjusted width for smaller cards */
-    height: 225px;   /* Adjusted height for smaller cards */
+    width: 225px;    
+    height: 225px;   
     position: relative;
-    margin-bottom: 28px; /* Gap between the cards */
+    margin-bottom: 28px; 
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 16px;
@@ -11,20 +12,23 @@
     opacity: 1;
   }
   
+  /* styles for each project image */
   .project-image {
-    width: 100px;    /* Image width */
-    height: 100px;   /* Image height */
+    width: 100px;    
+    height: 100px;   
     object-fit: cover;
-    margin: 0;       /* No gap */
-    opacity: 1;      /* Visible by default */
+    margin: 0;       
+    opacity: 1;      
   }
   
+  /* styles for the project title */
   .project-card h3 {
-    font-size: 18px;   /* Smaller font for the title */
+    font-size: 18px;   
     margin: 40px 0;
   }
   
+  /* styles for the project date */
   .project-card p {
-    font-size: 14px;   /* Smaller font for the date */
+    font-size: 14px;   
     color: #666;
   }
